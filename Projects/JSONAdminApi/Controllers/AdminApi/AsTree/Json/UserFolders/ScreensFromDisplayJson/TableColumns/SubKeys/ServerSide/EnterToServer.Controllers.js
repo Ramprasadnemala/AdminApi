@@ -1,6 +1,7 @@
 let Repos = require("../../../../../../../../../Repository/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/TableColumns/SubKeys/ServerSide/EnterToServer");
 
 let GetFuncs = async (req, res) => {
+    console.log("llllllllll");
     let LocalDataPk = req.KeshavSoft.DataPk;
 
     let LocalFromRepo = await Repos.GetFuncs({

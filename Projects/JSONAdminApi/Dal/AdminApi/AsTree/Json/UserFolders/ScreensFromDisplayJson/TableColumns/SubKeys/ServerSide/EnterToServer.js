@@ -1,5 +1,5 @@
-let CommonDataSupplyForGet = require("../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/AsTree/ForTableColumns/SubMenu/ServerSide/TransformBeforeSave");
-let CommonDataSupply = require("../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/UserFolder/UserFileAsFolder/DisplayJsonFile/ItemName/ScreenName/TableColumns/SubMenu/ServerSide/TransformBeforeSave/Update");
+let CommonDataSupplyForGet = require("../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/AsTree/ForTableColumns/SubMenu/ServerSide/EnterToServer");
+let CommonDataSupply = require("../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/UserFolder/UserFileAsFolder/DisplayJsonFile/ItemName/ScreenName/TableColumns/SubMenu/ServerSide/EnterToServer/Update");
 
 exports.GetFuncs = async ({ DataPK }) => {
      let LocalinDataPk = DataPK;
