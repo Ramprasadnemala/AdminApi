@@ -1,7 +1,308 @@
-GET http://localhost:4119/JSONAdminApi/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/TableColumns/Toggles/GetFuncs
+GET http://localhost:4119/JSONAdminApi/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/TableColumns/Toggles
 Cookie: KToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IkZBUSIsIkRhdGFQayI6MTksImlhdCI6MTY4NDIzNzg5M30.qT8xoAdzx-2uRE3CxasYai563atqS4KEbyItDwYQR3w
 content-type: application/json
 
 {
     
+    "Folders": {
+        "SimpleQuestions": {
+            "FolderName": "SimpleQuestions",
+            "Files": {
+                "OnUI": {
+                    "FileName": "OnUI",
+                    "Items": {
+                        "AllowNumberOnly": {
+                            "ItemName": "AllowNumberOnly",
+                            "ItemNameForHtmlId": "AllowNumberOnly",
+                            "Screens": {
+                                "Create": {
+                                    "ScreenName": "Create",
+                                    "ScreenNameForHtmlId": "Create",
+                                    "TableInfo": {
+                                        "ColumnReOrder": false,
+                                        "DisplayName": "",
+                                        "TableInfoServerSide": {
+                                            "TransformToUi": false
+                                        },
+                                        "SearchControl": [],
+                                        "TableBody": {
+                                            "FooterType": {
+                                                "ShowTotals": false,
+                                                "Search": {
+                                                    "ShowTotals": false
+                                                }
+                                            }
+                                        },
+                                        "TableRowOptions": {
+                                            "PrintToPrinter": {
+                                                "Double": false,
+                                                "Barcode": false
+                                            },
+                                            "DropDown": "",
+                                            "KData": [
+                                                {
+                                                    "DisplayName": "Edit",
+                                                    "OnClickFunc": ""
+                                                },
+                                                {
+                                                    "DisplayName": "Delete",
+                                                    "OnClickFunc": ""
+                                                },
+                                                {
+                                                    "DisplayName": "InvGrid",
+                                                    "OnClickFunc": ""
+                                                },
+                                                {
+                                                    "DisplayName": "Design",
+                                                    "OnClickFunc": ""
+                                                },
+                                                {
+                                                    "DisplayName": "Show",
+                                                    "OnClickFunc": ""
+                                                },
+                                                {
+                                                    "DisplayName": "Update",
+                                                    "OnClickFunc": ""
+                                                }
+                                            ],
+                                            "Onclick": "TestingClick",
+                                            "Copy": {
+                                                "KTF": false
+                                            },
+                                            "ShowinTable": {
+                                                "KTF": false
+                                            },
+                                            "Delete": {
+                                                "Simple": true
+                                            },
+                                            "Edit": {
+                                                "RowEdit": false,
+                                                "RowEditWithUi": false,
+                                                "RowEditForJSON": false,
+                                                "JSON": false
+                                            },
+                                            "CreateNew": {
+                                                "RowCreateNew": false,
+                                                "NewWindow": {
+                                                    "ApiToServer": {
+                                                        "KTF": false
+                                                    }
+                                                }
+                                            },
+                                            "Show": {
+                                                "Rowshow": true,
+                                                "RowDetails": false,
+                                                "KeyAsTree": false
+                                            },
+                                            "DefaultFocus": {
+                                                "DataAttribute": ""
+                                            },
+                                            "InvGrid": {
+                                                "RowInvGrid": false
+                                            },
+                                            "BarcodePrint": {
+                                                "SVJP": false,
+                                                "SKML": false
+                                            },
+                                            "BillSave": {
+                                                "Edit": false
+                                            },
+                                            "PopUp": {
+                                                "Rowshow": true
+                                            },
+                                            "Design": false
+                                        },
+                                        "kPK": "pk",
+                                        "kDetails": "",
+                                        "kUserName": "",
+                                        "TableId": "KTableId",
+                                        "ShowFooter": true,
+                                        "BackGroundColor": "#ffffff",
+                                        "ParentClass": "col-12",
+                                        "HeadRowSearch": false,
+                                        "PopUp": "",
+                                        "ParentClasses": {
+                                            "Parent1Class": "col-md-8",
+                                            "Parent2Class": "col-md-4",
+                                            "Parent3Class": "col-md-12",
+                                            "Table": {
+                                                "CardClass": "",
+                                                "TableClass": ""
+                                            }
+                                        },
+                                        "SearchRowArray": {
+                                            "Label": {
+                                                "KTF": true,
+                                                "DisplayObject": {
+                                                    "DisplayText": "SimpleQuestions - OnUI.json - AllowNumberOnly - Create",
+                                                    "ColClass": "md-5 col-sm-12 col-12"
+                                                }
+                                            },
+                                            "Search": {
+                                                "KTF": true,
+                                                "DisplayObject": {
+                                                    "DisplayText": "Search",
+                                                    "ColClass": "md-4 col-sm-8 col-12"
+                                                }
+                                            },
+                                            "SearchWithEnter": {
+                                                "KTF": false,
+                                                "DisplayObject": {
+                                                    "DisplayText": "SearchWithEnter",
+                                                    "ColClass": "md-2 col-sm-4 col-12"
+                                                }
+                                            },
+                                            "Button": {
+                                                "PrintToPrinter": {
+                                                    "Double": false,
+                                                    "Preview": {
+                                                        "KTF": false,
+                                                        "DisplayObject": {
+                                                            "ColClass": "md-1"
+                                                        }
+                                                    }
+                                                },
+                                                "Footer": {
+                                                    "WithApi": {
+                                                        "KTF": true,
+                                                        "DisplayObject": {
+                                                            "ColClass": "md-1",
+                                                            "SvgPlus": true,
+                                                            "SvgPlusLarge": false,
+                                                            "Table": true
+                                                        }
+                                                    }
+                                                },
+                                                "Scrollable": {
+                                                    "KTF": false,
+                                                    "DisplayObject": {
+                                                        "ColClass": "md-1"
+                                                    }
+                                                },
+                                                "NewWindow": {
+                                                    "KTF": true,
+                                                    "DisplayObject": {
+                                                        "ColClass": "md-1",
+                                                        "SvgPlus": true,
+                                                        "SvgPlusLarge": false,
+                                                        "NewWindow": true,
+                                                        "Table": false
+                                                    }
+                                                },
+                                                "PopUp": {
+                                                    "KTF": true,
+                                                    "DisplayObject": {
+                                                        "ColClass": "md-1",
+                                                        "SvgPlus": true,
+                                                        "SvgPlusLarge": false,
+                                                        "NewWindow": false,
+                                                        "Table": false,
+                                                        "Chat": true
+                                                    }
+                                                }
+                                            },
+                                            "CreativeTim": {
+                                                "SearchWithEnter": {
+                                                    "KTF": false,
+                                                    "DisplayObject": {
+                                                        "DisplayText": "SearchWithEnter",
+                                                        "ColClass": "md-2 col-sm-4 col-12"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "Vertical": {
+                                            "Footer": {
+                                                "Update": false,
+                                                "SaveType": {
+                                                    "Post": false,
+                                                    "Show": false,
+                                                    "Save": false,
+                                                    "LedgerShow": false
+                                                }
+                                            },
+                                            "VerticalCreate": {
+                                                "save": false,
+                                                "saveNew": false,
+                                                "saveNewReturnData": false,
+                                                "Edit": false,
+                                                "Update": false,
+                                                "UpdateNew": false,
+                                                "saveFromKeyAsTree": true,
+                                                "ForSubTable": false,
+                                                "Save": {
+                                                    "Transactions": false,
+                                                    "Head": false
+                                                },
+                                                "Show": {
+                                                    "Masters": false,
+                                                    "Transactions": false,
+                                                    "Reports": false
+                                                }
+                                            }
+                                        },
+                                        "DataAttributes": {
+                                            "JsonConfig": "",
+                                            "ItemConfig": "",
+                                            "PK": "",
+                                            "KeyAsTree": "",
+                                            "InsertKey": ""
+                                        },
+                                        "BreadCrump": [
+                                            {
+                                                "DisplayText": "home"
+                                            }
+                                        ],
+                                        "FooterType": {
+                                            "ShowBalance": false,
+                                            "CreateNew": true,
+                                            "CreateNewRow": {
+                                                "Style": "display:none",
+                                                "Show": true
+                                            },
+                                            "SaveType": {
+                                                "Save": true
+                                            },
+                                            "ShowTotals": false
+                                        },
+                                        "DataAttributesFromTableInfo": true,
+                                        "DataAttributesFromTableDataRow": false
+                                    },
+                                    "TableColumnsObject": {
+                                        "pk": {
+                                            "DataAttribute": "pk",
+                                            "DisplayName": "pk",
+                                            "ShowInTable": true,
+                                            "Insert": true,
+                                            "CreateNew": false,
+                                            "IsTextArea": false,
+                                            "ShowTotal": false
+                                        },
+                                        "Step": {
+                                            "DataAttribute": "Step",
+                                            "DisplayName": "Step",
+                                            "ShowInTable": true,
+                                            "Insert": true,
+                                            "CreateNew": true,
+                                            "IsTextArea": false,
+                                            "ShowTotal": false
+                                        },
+                                        "Description": {
+                                            "DataAttribute": "Description",
+                                            "DisplayName": "Description",
+                                            "ShowInTable": true,
+                                            "Insert": true,
+                                            "CreateNew": true,
+                                            "IsTextArea": false,
+                                            "ShowTotal": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

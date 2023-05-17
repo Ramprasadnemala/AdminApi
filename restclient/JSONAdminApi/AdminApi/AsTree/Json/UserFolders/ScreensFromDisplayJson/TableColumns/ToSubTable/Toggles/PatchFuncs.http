@@ -1,0 +1,9 @@
+patch http://localhost:4119/JSONAdminApi/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/TableColumns/Toggles
+Cookie:  KToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IkZBUSIsIkRhdGFQayI6MTksImlhdCI6MTY4NDI0ODM3MH0.Nv1DDsallzUOUmh9zmNbm37N_Dqw6AkGDA3AgkwdyfE
+content-type: application/json
+
+{
+    
+    "folderName": "SimpleQuestions"
+  
+}
