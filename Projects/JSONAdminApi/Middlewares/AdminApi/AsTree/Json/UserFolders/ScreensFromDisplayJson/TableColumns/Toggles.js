@@ -1,3 +1,17 @@
+exports.GetFuncs = (req, res, next) => {
+    if (("KeshavSoft" in req) === false) {
+        res.json({ KTF: false, KReason: "KeshavSoft not found in Request" })
+        return;
+    };
+
+    if (("DataPk" in req.KeshavSoft) === false) {
+        res.json({ KTF: false, KReason: "DataPk not found in Request" })
+        return;
+    };
+
+    next();
+};
+
 exports.PatchFuncs = (req, res, next) => {
     if (Object.keys(req.body).length === 0) {
         res.json({
