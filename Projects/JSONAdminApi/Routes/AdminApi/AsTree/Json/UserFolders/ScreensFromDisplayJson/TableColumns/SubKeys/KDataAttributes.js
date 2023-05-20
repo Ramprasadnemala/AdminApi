@@ -4,3 +4,5 @@ let CommonControllers = require("../../../../../../../../Controllers/AdminApi/As
 
 router.get('/', CommonControllers.GetFuncs);
 router.patch('/', CommonControllers.Update);
+
+module.exports = router;
