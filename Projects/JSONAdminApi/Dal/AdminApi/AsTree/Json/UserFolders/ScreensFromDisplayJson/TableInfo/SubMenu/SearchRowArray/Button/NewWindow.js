@@ -1,10 +1,10 @@
 
-let CommonDatasupply = require("../../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/AsTree/ForTableInfo/SubMenu/SearchRowArray/Label");
+let CommonDatasupply = require("../../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/AsTree/ForTableInfo/SubMenu/SearchRowArray/ButtonMenu/NewWindow");
 let CommonDataSupplyForUpdate = require("../../../../../../../../../../../../DataSupply/Fs/Config/JSONFolder/DataPkAsFolder/ConfigFolder/UserFolder/UserFileAsFolder/DisplayJsonFile/ItemName/ScreenName/TableInfo/SubMenu/SearchRowArray/Button/NewWindow/Update")
 
 let GetFuncs = async ({ DataPK }) => {
     if (DataPK > 0) {
-        return await CommonDatasupply.AsObject({ inDataPK: DataPK });
+        return await CommonDatasupply.StartFunc({ inDataPK: DataPK });
     };
 };
 
