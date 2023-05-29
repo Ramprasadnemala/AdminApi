@@ -7,9 +7,9 @@ let CommonTableInfoServerSide = require("./SubMenu/TableInfoServerSide");
 
 
 router.use('/SearchRowArray', CommonSearchRowArray);
-router.use('/FooterType', CommonFooterType);
-router.use('/TableRowOptions', CommonTableRowOptions);
-router.use('/TableInfoServerSide', CommonTableInfoServerSide);
+// router.use('/FooterType', CommonFooterType);
+// router.use('/TableRowOptions', CommonTableRowOptions);
+// router.use('/TableInfoServerSide', CommonTableInfoServerSide);
 
 
 

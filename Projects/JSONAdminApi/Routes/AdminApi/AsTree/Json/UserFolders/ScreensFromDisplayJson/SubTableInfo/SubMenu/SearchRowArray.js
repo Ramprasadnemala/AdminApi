@@ -6,6 +6,6 @@ let CommonnButton = require("./SearchRowArray/Button");
 
 router.use('/Label', CommonLabel);
 router.use('/Search', CommonSearch);
-router.use('/Button', CommonnButton);
+// router.use('/Button', CommonnButton);
 
 module.exports = router;
