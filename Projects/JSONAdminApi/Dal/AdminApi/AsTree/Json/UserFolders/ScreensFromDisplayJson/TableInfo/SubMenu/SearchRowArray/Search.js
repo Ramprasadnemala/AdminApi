@@ -3,7 +3,7 @@ let CommonDatasupply = require("../../../../../../../../../../../DataSupply/Fs/C
 
 let GetFuncs = async ({ inDataPK }) => {
     if (inDataPK > 0) {
-        return await CommonDatasupply.StartFunc({ inDataPK });
+        return await CommonDatasupply.AsObject({ inDataPK });
     };
 };
 
