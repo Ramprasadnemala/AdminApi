@@ -1,9 +1,9 @@
-let Dal = require("../../../../../../../../../Dal/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/TableInfo/SubMenu/FooterType/FromKeys");
+let Dal = require("../../../../../../../../../Dal/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/SubTableInfo/SubMenu/FooterType/FromKeys");
 
-exports.GetFuncs = async ({ DataPK }) => {
-    return await Dal.GetFuncs({ DataPK });
+exports.GetFuncs = async ({ inDataPK }) => {
+    return await Dal.GetFuncs({ inDataPK });
 };
 
-exports.Update = async ({ DataPK, FolderName, FileName, ItemName, ScreenName, DataAttribute, BodyAsJson }) => {
-    return await Dal.Update({ DataPK, FolderName, FileName, ItemName, ScreenName, DataAttribute, BodyAsJson })
+exports.Update = async ({ inDataPK, inFolderName, inFileName, inItemName, inScreenName, GridName, BodyAsJson }) => {
+    return await Dal.Update({ inDataPK, inFolderName, inFileName, inItemName, inScreenName, GridName, BodyAsJson })
 };
