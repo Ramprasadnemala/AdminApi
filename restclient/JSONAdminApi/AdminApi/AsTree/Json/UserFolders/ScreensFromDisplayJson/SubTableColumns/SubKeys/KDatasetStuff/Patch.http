@@ -1,0 +1,20 @@
+PATCH http://localhost:4119/JSONAdminApi/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/SubTableColumns/SubKeys/KDatasetStuff
+Cookie: KToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IktJUkFOQSIsIkRhdGFQayI6MjAsImlhdCI6MTY4NTUyMzAyNX0.QOPpPs3q9CoJ5NaTDt6ufQe26QL6cxmiYJ--Rm0n7oI
+content-type: application/json
+
+
+  {
+    "folderName": "Transactions",
+    "FileName": "Sales",
+    "ItemName": "Sale",
+    "ScreenName": "Create",
+    "DataAttribute": "ItemName",
+    "subtablecolumnkey": "InvGrid",
+    "BodyAsJson": {
+        "Validate": true,
+        "DataListReverse": false,
+        "Type": "String"
+    }
+}
+
+  
