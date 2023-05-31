@@ -1,5 +1,5 @@
 GET http://localhost:4119/JSONAdminApi/AdminApi/AsTree/Json/UserFolders/ScreensFromDisplayJson/SubTableColumns/SubKeys/HtmlAttributes
-Cookie: KToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IktJUkFOQTIxIiwiRGF0YVBrIjoyMCwiaWF0IjoxNjg1NTE2NjAyfQ.QUuWfljgRN10BRN80gEDvzBMC7pC7wQ6jOfICGQk0dQ
+Cookie: KToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IkswNyIsIkRhdGFQayI6MjEsImlhdCI6MTY4NDc0OTI2OH0.ozEEHh17vtC2J8Ko_KrIFJ3AUperwFB6UnAmyMBnUEs
 content-type: application/json
 
 {
