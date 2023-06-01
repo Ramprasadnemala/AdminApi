@@ -1,0 +1,7 @@
+GET http://localhost:4131/JSONAdminApi/AdminApi/AsTree/Json/UserFolders/ConfigAndDataFolders/CreateNew/CreateFolder
+Cookie: KToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IkZBUSIsIkRhdGFQayI6MTksImlhdCI6MTY4NTU5ODQ4OX0.aCzUEpkERnYqDqYcCMtQutmAL0UlrePLrUal8n3abno
+content-type: application/json
+
+{
+    
+}
